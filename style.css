@@ -1,17 +1,22 @@
 
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 * {
-outline: 1px solid red;
+    font-family: Roboto;
 }
 
 body {
-    
+    margin:0px;
 }
 
+.color-top {
+    color: white;
+}
 
 .color-top {
-    background-color: grey;
+    background-color: #1F2937;
 }
 
 .top {
@@ -36,19 +41,36 @@ body {
     display: flex;
     padding: 10px;
     gap: 10px;
+    justify-content: center;
+    padding-bottom: 50px;
 }
 
 .content {
     padding: 0px;
 }
 
+.banner img {
+    flex: 1;
+    margin-bottom: 10px;
+}
+
 .banner button {
     margin-top: 10px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    border-color: #3882F6;
+    width: 80px;
+    padding: 10px;
+    font-size: 11pt;
+    border: 0px;
 }
 
 .middle {
     margin-left:100px;
     margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .boxes {
@@ -59,8 +81,13 @@ body {
     padding: 0px 100px 0px 100px;
 }
 
+h1 {
+    font-size: 36px;
+}
+
 h2 {
     padding-left: 10px;
+    text-align: center;
 }
 
 .box {
@@ -77,15 +104,24 @@ h2 {
     padding-top: 5px;
 }
 
-img {
+.box img {
     border-radius: 10px;
+}
+
+.quote-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E5E7EB;
+    margin-top: 50px;
+    padding: 30px;
 }
 
 .quote {
     display: flex;
     flex-direction: column;
     padding: 100px;
-    padding-bottom: 0px;
+    font-size: 24px;
 }
 
 .footnote {
@@ -102,20 +138,38 @@ img {
 
 .cta {
     display: flex;
-    padding: 10px;
     gap: 10px;
     align-items: center;
     flex-basis: 700px;
+    font-size: 18px;
+    background-color: #3882F6;
+    color: white;
+    padding: 20px;
 }
 
 .cta button {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
     flex-basis: 120px;
     font-size: medium;
+    border-radius: 50px;
+    background-color: white;
+    border: 0px;
 
 }
 
 .cta-text {
     flex: 1;
+}
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.footer p {
+    margin: 0px;
+    border: 0px;
+    text-align: center;
+    color: white;
 }
