@@ -1,0 +1,121 @@
+
+
+
+* {
+outline: 1px solid red;
+}
+
+body {
+    
+}
+
+
+.color-top {
+    background-color: grey;
+}
+
+.top {
+    margin-left:100px;
+    margin-right: 100px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+.links {
+    display: flex;
+    gap: 10px;
+}
+
+.banner {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+.content {
+    padding: 0px;
+}
+
+.banner button {
+    margin-top: 10px;
+}
+
+.middle {
+    margin-left:100px;
+    margin-right: 100px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 100px 0px 100px;
+}
+
+h2 {
+    padding-left: 10px;
+}
+
+.box {
+    flex: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.description {
+    text-align: center;
+    padding-top: 5px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    padding-bottom: 0px;
+}
+
+.footnote {
+    text-align: end;
+    margin-right: 100px;
+    font-weight: bolder;
+}
+
+.bottom {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    flex-basis: 700px;
+}
+
+.cta button {
+    width: 50px;
+    height: 50px;
+    flex-basis: 120px;
+    font-size: medium;
+
+}
+
+.cta-text {
+    flex: 1;
+}
